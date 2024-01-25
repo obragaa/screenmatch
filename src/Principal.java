@@ -8,5 +8,12 @@ public class Principal {
         meuFilme.duracaoEmMinutos = 180;
 
         meuFilme.exibeFichaTecnica();
+
+        meuFilme.avalia(10);
+        meuFilme.avalia(5);
+        meuFilme.avalia(9);
+
+        System.out.println("Soma de avaliações: " + meuFilme.somaDasAvaliacoes + " Avaliações totais: " + meuFilme.totalDeAvaliacoes);
+        System.out.println("Média: " + meuFilme.pegaMedia());
     }
 }
