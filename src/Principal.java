@@ -10,10 +10,10 @@ public class Principal {
         meuFilme.exibeFichaTecnica();
 
         meuFilme.avalia(10);
-        meuFilme.avalia(5);
+        meuFilme.avalia(8);
         meuFilme.avalia(9);
 
-        System.out.println("Soma de avaliações: " + meuFilme.somaDasAvaliacoes + " Avaliações totais: " + meuFilme.totalDeAvaliacoes);
+        System.out.println(" Avaliações totais: " + meuFilme.getTotalDeAvaliacoes());
         System.out.println("Média: " + meuFilme.pegaMedia());
     }
 }
