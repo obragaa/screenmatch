@@ -8,6 +8,7 @@ public class Principal {
         meuFilme.setNome("Até o último homem");
         meuFilme.setAnoDeLancamento(2017);
         meuFilme.setDuracaoEmMinutos(180);
+        meuFilme.setIncluidoNoPlano(true);
 
         meuFilme.exibeFichaTecnica();
 
@@ -15,7 +16,7 @@ public class Principal {
         meuFilme.avalia(8);
         meuFilme.avalia(9);
 
-        System.out.println(" Avaliações totais: " + meuFilme.getTotalDeAvaliacoes());
-        System.out.println("Média: " + meuFilme.pegaMedia());
+        System.out.println("Média de avaliações do filme: " +meuFilme.pegaMedia());
+
     }
 }
